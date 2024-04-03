@@ -1,4 +1,4 @@
-$addr = "http://127.0.0.1:7890";
+$addr = "http://127.0.0.1:7897";
 $no_proxy = "localhost;127.*;192.168.*;10.*;172.16.*";
 
 [System.Environment]::SetEnvironmentVariable("HTTP_PROXY", $addr);
